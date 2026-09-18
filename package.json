@@ -1,10 +1,10 @@
 {
   "name": "@assforge/cogent-release",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "commonjs",
   "description": "Unified cogent family release board: package status plus AI review gate for self-merge",
   "bin": {
-    "cogent-release": "./bin/cogent-release.js"
+    "cogent-release": "bin/cogent-release"
   },
   "repository": {
     "type": "git",
