@@ -1,0 +1,53 @@
+{
+  "family": "cogent",
+  "packages": [
+    {
+      "id": "sandbox",
+      "name": "@assforge/cogent-sandbox",
+      "repo": "assforge/agent-sandbox",
+      "dir": "agent-sandbox"
+    },
+    {
+      "id": "harness",
+      "name": "@assforge/cogent-harness",
+      "repo": "assforge/agent-harness",
+      "dir": "agent-harness"
+    },
+    {
+      "id": "daemon",
+      "name": "@assforge/cogent-daemon",
+      "repo": "assforge/agent-daemon",
+      "dir": "agent-daemon"
+    },
+    {
+      "id": "memo",
+      "name": "@assforge/cogent-memo",
+      "repo": "assforge/agent-memo",
+      "dir": "agent-memo"
+    },
+    {
+      "id": "cogent",
+      "name": "@assforge/cogent",
+      "repo": "assforge/agent-packages",
+      "dir": "agent-packages"
+    },
+    {
+      "id": "slate",
+      "name": "@assforge/agent-slate",
+      "repo": "assforge/agent-slate",
+      "dir": "agent-slate"
+    },
+    {
+      "id": "dockyard",
+      "name": "@assforge/dockyard",
+      "repo": "assforge/dockyard",
+      "dir": "dockyard"
+    },
+    {
+      "id": "gitflow",
+      "name": "@assforge/gitflow",
+      "repo": "assforge/gitflow-packages",
+      "dir": "gitflow-packages"
+    }
+  ]
+}

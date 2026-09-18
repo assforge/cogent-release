@@ -1,0 +1,35 @@
+{
+  "name": "@assforge/cogent-release",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "description": "Unified cogent family release board: package status plus AI review gate for self-merge",
+  "bin": {
+    "cogent-release": "./bin/cogent-release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assforge/cogent-release.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "files": [
+    "bin",
+    "src",
+    "family.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.31.1"
+  }
+}
